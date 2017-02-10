@@ -1,0 +1,172 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 1, 2017, 5:31:27 PM
+    Author     : admin
+*/
+
+html{
+        font-family: Tahoma, Geneva, sans-serif;
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:#101666;
+        font-size: 12px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #02d1b8;
+    }
+    nav{
+        background-color:#101666;
+        font-size: 12px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #02d1b8;
+    }
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111111;
+    }
+    
+    td {
+        text-align: right;
+    }
+    
+    tr{
+        border:0px;
+    }
+    
+    .footer{
+        color: white;
+        background-color: #333333;
+        text-align: center;
+        position:absolute;
+        bottom:0;
+        width:100%;
+        margin: 0 auto 0 auto;
+        height:20px;
+        font-size: 14px;
+    }
+    
+    .header{
+        font-size: 14px;
+        font-weight: bold;
+        color: whitesmoke;
+        background-color:#333333;
+        text-align: center;
+        width: 100%;
+        height:25px;
+ 
+    }
+    
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px;
+        display: inline-block;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        border-color: #02d1b8;
+    }
+    
+     input[type=hidden], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        border-color: #02d1b8;
+    }
+    
+  input[type=submit], select{
+        background-color: #101666;
+        border: 2px solid #02d1b8;
+        font-size: 14px;
+        color: white;
+        padding: 5px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 10px;
+        display:inline-block;
+       
+    }
+    
+    input[type=password], select{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px;
+        display: inline-block;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        border-color: #02d1b8;
+    }
+    
+    .button-style{
+      background:#101666;
+      color: #FFFFFF;
+      font-size: 12px;
+      border: 2px solid #02d1b8;
+      border-radius: 10px;
+      display:inline-block;
+}
+
+form{
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+}
+
+table{
+    margin: 0 auto;
+    width: 50%;
+    height:50%;
+    border: 0;
+}
+.research{
+    font-size:20px;
+     width: 100%;
+        position: absolute;
+        top: 70%;
+        margin-top: -15em;
+        margin-left: 30%;
+        border-spacing: 50px 50px;
+}
+
+a{
+    color:#6d9ce8;
+    text-decoration: none;
+}
+
+
+textarea{
+    border: 2px solid #ccc;
+    border-color: #02d1b8;
+    overflow:hidden;
+    vertical-align:top;
+}
+
+
+
